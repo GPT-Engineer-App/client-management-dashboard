@@ -14,7 +14,7 @@ const Index = () => {
       carrier: "Example Insurance",
       typeOfLoss: "Fire",
       estimateValue: "$10,000",
-      jobSitePhotos: ['https://images.unsplash.com/photo-1567865204021-2da594ef9a44?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1MDcxMzJ8MHwxfHNlYXJjaHwxfHxmaXJlJTIwZGFtYWdlfGVufDB8fHx8MTcwOTAyMTE2NXww&ixlib=rb-4.0.3&q=80&w=1080'],
+      jobSitePhotos: ["https://images.unsplash.com/photo-1567865204021-2da594ef9a44?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1MDcxMzJ8MHwxfHNlYXJjaHwxfHxmaXJlJTIwZGFtYWdlfGVufDB8fHx8MTcwOTAyMTE2NXww&ixlib=rb-4.0.3&q=80&w=1080"],
     },
     // Add more clients as needed...
   ];
@@ -25,6 +25,8 @@ const Index = () => {
   // This would be a more complex function to handle uploading and parsing photos.
   const handleUploadAndAnalyzePhotos = () => {
     console.log("Analyzing photos...");
+    // Simulating analysis result output
+    console.log("Analysis complete. Damage detected: 3 areas. Recommended repairs: replace flooring, repaint walls, fix electrical wiring.");
     // This function would interact with an AI service to analyze photos.
   };
 
